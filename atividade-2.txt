@@ -1,0 +1,2 @@
+
+Todas as linhas da imagem 2 possuem 4+2 alunos de M e P, tanto na disposição horizontal quanto na vertical. Portanto, nas linhas em que ocorreu a troca de alunos, estas passam a ter 3+3 de cada disciplina. O responsável pela troca provavelmente identificou o aluno substituído, mas ainda não foi determinado a origem do aluno de P e o destino do aluno de M.
