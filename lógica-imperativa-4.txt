@@ -1,0 +1,20 @@
+1. // Solicitação de dados do usuário
+2. Escreva("Por favor, informe seus dados pessoais:")
+3. Escreva("Nome:")
+4. Leia(nome)
+5. Escreva("Endereço:")
+6. Leia(endereco)
+7. Escreva("Cidade:")
+8. Leia(cidade)
+9. Escreva("CPF:")
+10. Leia(cpf)
+11. Escreva("RG:")
+12. Leia(rg)
+
+13. // Exibição dos dados fornecidos pelo usuário
+14. Escreva("Dados informados:")
+15. Escreva("Nome: " + nome)
+16. Escreva("Endereço: " + endereco)
+17. Escreva("Cidade: " + cidade)
+18. Escreva("CPF: " + cpf)
+19. Escreva("RG: " + rg)
