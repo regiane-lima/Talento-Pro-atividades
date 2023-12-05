@@ -1,0 +1,23 @@
+1. indentificação das váriaveis
+
+    Nome: nomeCompleto
+   CPF: numeroCPF
+   RG: numeroRG
+   Altura: alturaPessoa
+   Endereço: enderecoCompleto
+
+2. Declaração das Variáveis com Seus Respectivos nomes e tipo de dado
+
+  nomeCompleto (caracter) 
+    numeroCPF (caracter) 
+    numeroRG (inteiro)
+   alturaPessoa (real)
+   enderecoCompleto (caracter)
+
+3. Utilização do Comando de Atribuição:
+
+   nomeCompleto = "José Almeida da Silva"
+   numeroCPF = "12345678900"
+   numeroRG = 9517530 
+   alturaPessoa = 1.78 
+   enderecoCompleto = "Rua A, 380 – Centro – Recife/PE"
