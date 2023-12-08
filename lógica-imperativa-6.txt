@@ -1,0 +1,13 @@
+Função gerarEtiquetas():
+    // Solicitar ao usuário o nome da equipe
+    Escrever("Digite o nome da equipe: ")
+    NomeDaEquipe = Ler()
+
+    // Gerar etiquetas para os 5 membros da equipe
+    Para i de 1 até 5 Faça
+        Etiqueta = Concatenar(NomeDaEquipe, " - ", i)
+        Escrever("Membro ", i, ": ", Etiqueta)
+    Fim Para
+
+// Chamada da função principal
+gerarEtiquetas()
