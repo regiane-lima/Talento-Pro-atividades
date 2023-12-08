@@ -1,0 +1,41 @@
+Função determinarAreaAlocacao():
+    ExibirMensagemDeBoasVindas()
+
+    Se clienteÉFumanteOuTemAnimalDeEstimacao() Então
+        AlocarNaAreaExterna()
+    Senão Se grupoÉDeCincoOuMaisPessoas() Então
+        AlocarNoPrimeiroAndar()
+    Senão
+        AlocarNoTerreo()
+    Fim Se
+
+    ExibirMensagemDeAlocacaoConcluida()
+
+Função clienteÉFumanteOuTemAnimalDeEstimacao():
+    // Pergunta ao cliente se é fumante ou tem animal de estimação
+    // Retorna verdadeiro se a resposta for afirmativa, falso caso contrário
+
+Função grupoÉDeCincoOuMaisPessoas():
+    // Pergunta ao cliente sobre o tamanho do grupo
+    // Retorna verdadeiro se o grupo tiver 5 ou mais pessoas, falso caso contrário
+
+Função alocarNaAreaExterna():
+    ExibirMensagemDeAlocacao("Você será alocado na área externa.")
+
+Função alocarNoPrimeiroAndar():
+    ExibirMensagemDeAlocacao("Devido ao tamanho do seu grupo, você será alocado no 1º andar.")
+
+Função alocarNoTerreo():
+    ExibirMensagemDeAlocacao("Você será alocado no térreo.")
+
+Função exibirMensagemDeBoasVindas():
+    // Exibe uma mensagem de boas-vindas aos clientes
+
+Função exibirMensagemDeAlocacao(mensagem):
+    // Exibe a mensagem de alocação para o cliente
+
+Função exibirMensagemDeAlocacaoConcluida():
+    // Exibe uma mensagem indicando que a alocação foi concluída
+
+// Chamada da função principal
+determinarAreaAlocacao()
