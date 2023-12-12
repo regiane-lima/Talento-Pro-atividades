@@ -1,0 +1,6 @@
+Verdadeiro
+Falso
+Falso
+Falso
+Verdadeiro
+Verdadeiro
