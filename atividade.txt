@@ -1,0 +1,40 @@
+Var
+
+  rodas : inteiro
+
+  peso : real
+
+  qtdPessoas : inteiro
+Inicio
+
+  escreva ("Quantas rodas tem o veículo?")
+
+  leia (rodas)
+
+  escreva ("Qual é o peso bruto do veículo?")
+
+  leia (peso)
+
+escreva ("Qual é o maior número de pessoas que o veículo acomoda?")
+
+  leia (qtdPessoas)
+se (rodas <= 3) entao
+
+  escreva ("Melhor categoría de habilitação: A")
+
+  senao se (rodas == 4) e (qtdPessoas <= 8) e (peso <= 3500) entao
+
+  escreva ("Melhor categoría de habilitação: B")
+
+  senao se (peso >= 3500) e (peso <= 6000) entao
+
+  escreva ("Melhor categoría de habilitação: C")
+
+  senao se (qtdPessoas > 8) entao
+escreva ("Melhor categoría de habilitação: D")
+
+senao se (peso > 6000)
+
+  escreva ("Melhor categoría de habilitação: E")
+
+Fimalgoritmo
