@@ -1,0 +1,20 @@
+algoritmo "ExercicioSeries"
+var
+   quantidadeSeries: inteiro
+inicio
+
+   ESCREVA ("Digite a quantidade de séries: ")
+   LEIA (quantidadeSeries)
+
+   ENQUANTO quantidadeSeries <> 0 FACA
+
+       ESCREVA ("Cliente ", nomeCliente, ", faça a série ", quantidadeSeries, " do exercício ", nomeExercicio)
+       AGUARDAR_ENTRADA() // Aguarda o cliente indicar que a série foi concluída (por exemplo, pressionando ENTER).
+
+       quantidadeSeries <- quantidadeSeries - 1
+
+   FIMENQUANTO
+
+   ESCREVA ("Parabéns, ", nomeCliente, "! Você concluiu todas as séries do exercício ", nomeExercicio)
+
+fimalgoritmo
