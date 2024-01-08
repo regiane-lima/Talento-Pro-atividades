@@ -1,20 +1,36 @@
-def achar_elemento(elem, arr):
-    try:
-        indice = arr.index(elem)
-        print(f"Achamos o nome: {elem} no índice {indice}")
-    except ValueError:
-        print(f"Não achamos o nome: {elem}")
+def verificar_presenca(elemento, lista):
+    encontrado = False
+    for item in lista:
+        if item == elemento:
+            encontrado = True
+    if not encontrado:
+        print(f'O nome "{elemento}" não foi encontrado.')
+    else:
+        print(f'O nome "{elemento}" foi encontrado.')
 
-# Lista de nomes
-nomes = ['karol', 'miguel', 'jonny', 'kay']
+ativo = True
+nomes_lista = ['Karol', 'Miguel', 'Jhonathan', 'Kaylane']
 
-# Loop para perguntar ao usuário o elemento que deseja encontrar
-while True:
-    elemento_desejado = input("Digite o nome que deseja encontrar (ou 'sair' para encerrar): ")
+while ativo:
+    print("O que deseja fazer?\n"
+          "1 - Adicionar um nome\n"
+          "2 - Verificar a presença de um nome\n"
+          "3 - Sair")
 
-    if elemento_desejado.lower() == 'sair':
-        print("Encerrando a busca.")
-        break  # Sai do loop se o usuário digitar 'sair'
-    
-    # Chama a função achar_elemento com o elemento desejado
-    achar_elemento(elemento_desejado, nomes)
+    opcao = int(input())
+
+    if opcao == 1:
+        novo_nome = input("Digite o nome: ").capitalize()
+        nomes_lista.append(novo_nome)
+        print(nomes_lista)
+
+    elif opcao == 2:
+        nome_procurado = input("Digite o nome desejado:").capitalize()
+        verificar_presenca(nome_procurado, nomes_lista)
+
+    elif opcao == 3:
+        ativo = False
+
+    elif 1 > opcao or opcao > 3:
+        print("Opção inválida")
+
